@@ -1,7 +1,0 @@
-export("FarsPackage")
-importFrom("readr", "read_csv")
-importFrom("magrittr", "%>%")
-importFrom("dplyr", "mutate", "select", "bind_rows", "group_by", "summarize", "filter")
-importFrom("tidyr", "spread")
-importFrom("graphics", "points")
-import(maps)
