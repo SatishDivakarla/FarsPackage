@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Fatality Analysis Reporting System\"\nauthor: \"Satish Divakarla\"\ndate: \"2017-03-30\"\noutput: rmarkdown::html_vignette\nvignette: >\n  %\\VignetteIndexEntry{Fatality Analysis Reporting System}\n  %\\VignetteEngine{knitr::rmarkdown}\n  %\\VignetteEncoding{UTF-8}\n---\n\n## Introduction\n\nThis package contains functions that uses data from US National Highway Traffic Safety Administration and builds the reports related to fatality analysis. \n\n## Dependent packages\nThis package contains the functions that depends on various packages like readr, dplyr, magrittr, tidyr and graphics. Please run the following commands to install the dependent packages.\n```{r echo=TRUE, eval=FALSE}\ninstall.packages(\"readr\")\ninstall.packages(\"magrittr\")\ninstall.packages(\"tidyr\")\ninstall.packages(\"dplyr\")\ninstall.packages(\"graphics\")\n```\n## Functions in FARS package\n\nThis package contains the following functions:\n\n### fars_read: \nThis is a simple function that expects a csv filename as argument, checks if the file exists and if it exists it reads the file to an object and converts it to a data frame.\n\n### make_filename: \nThis is a simple function which expects a year as an argument, converts the year to integer, constructs the file name by appending year to the filename and returns it.\n\n### fars_read_years: \nThis function that expects a list of years, for each year in the list, construct the file name. Once the file name is created, read the content of file to the dataframe, create new field year and return month and year fields from dataframe.\n\n### fars_summarize_years:\nThis function expects a list of years, reads the content from all the files of these years using the internal method fars_read_years  for each year in the list and saves the result to a data frame. This dataframe is then processed to get a a final dataframe having the summary with list of months and total number of records for each year.\n\n### fars_map_state:\nThis function expects a valid state number and year. This function uses internal method \"make_filename\" to construct a file name, fars_read for reading the file to a dtaframe. Once the dataframe is populated, this function validates if the user passed state number exists in the dataframe and filters the records that match the state number. The coordinates in the dataframe are filtered and draws a graph based on the range of latitudes and longitudes and plots the points.\n\n## Data in the package\nNote that this package distributes three files containing the accident details for years 2013, 2014 and 2015. The data files are located in the \"data\" directory. \n\n## Testing the package\nThe tests for the functions are also available in this package. These tests are written based in testthat framework. So please install \"testthat\" package using the following command\n\n```{r echo=TRUE, eval=FALSE}\ninstall.packages(\"testthat\"\")\n```\n\n\n\n\n\n",
+    "created" : 1490937113014.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4026479290",
+    "id" : "448B0C69",
+    "lastKnownWriteTime" : 1490940061,
+    "last_content_update" : 1490940061333,
+    "path" : "~/CourseraProjects/FarsPackage/vignettes/fars_details.Rmd",
+    "project_path" : "vignettes/fars_details.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

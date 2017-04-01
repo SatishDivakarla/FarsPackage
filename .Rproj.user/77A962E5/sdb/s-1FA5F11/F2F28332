@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "export(\"FarsPackage\")\nimportFrom(\"readr\", \"read_csv\")\nimportFrom(\"magrittr\", \"%>%\")\nimportFrom(\"dplyr\", \"mutate\", \"select\", \"bind_rows\", \"group_by\", \"summarize\", \"filter\")\nimportFrom(\"tidyr\", \"spread\")\nimportFrom(\"graphics\", \"points\")\nimport(maps)\n",
+    "created" : 1491072663224.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "386403087",
+    "id" : "F2F28332",
+    "lastKnownWriteTime" : 1491073118,
+    "last_content_update" : 1491073118731,
+    "path" : "~/CourseraProjects/FarsPackage/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

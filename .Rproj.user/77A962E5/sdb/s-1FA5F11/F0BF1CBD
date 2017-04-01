@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{hello}\n\\alias{hello}\n\\title{Hello, World!}\n\\usage{\nhello()\n}\n\\description{\nPrints 'Hello, world!'.\n}\n\\examples{\nhello()\n}\n",
+    "created" : 1490940087442.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3093437535",
+    "id" : "F0BF1CBD",
+    "lastKnownWriteTime" : 1490936443,
+    "last_content_update" : 1490936443,
+    "path" : "~/CourseraProjects/FarsPackage/man/hello.Rd",
+    "project_path" : "man/hello.Rd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}
