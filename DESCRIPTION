@@ -2,10 +2,11 @@ Package: FarsPackage
 Type: Package
 Title: Fars package
 Version: 0.1.0
-Author: Satish Divakarla
-Maintainer: Satish Divakarla<satishchandra.d@gmail.com>
+Author: Satish Divakarla <satishchandra.d@gmail.com>
+Maintainer: Satish Divakarla <satishchandra.d@gmail.com>
 Description: This package is built for assignment submission for R course in coursera.
-License: CC0
+Depends: R (>= 3.3.3)
+License: CCO
 LazyData: TRUE
 Imports:
     readr,
@@ -13,8 +14,9 @@ Imports:
     tidyr,
     dplyr,
     graphics,
-    maps,
-    testthat
+    maps
 Suggests: knitr,
     rmarkdown,
+    testthat
 VignetteBuilder: knitr
+RoxygenNote: 6.0.1
