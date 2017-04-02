@@ -12,7 +12,8 @@ Imports:
     magrittr,
     tidyr,
     dplyr,
-    graphics
+    graphics,
+    maps
 Suggests: knitr,
     rmarkdown,
 VignetteBuilder: knitr
