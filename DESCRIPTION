@@ -1,0 +1,27 @@
+Package: FarsPackage
+Type: Package
+Date: 2017-04-02
+Title: An implementation of Fars package distributed in the course
+Version: 0.1.0
+Authors@R: c(person("Satish", "Divakarla", role = c("aut", "cre"),
+                     email = "satishchandra.d@gmail.com"))
+Description: This package is built for assignment submission for R course in coursera.
+    The purpose of this package is to generate the fatality analysis reposriting system.
+    This package also distributes the fatality data for three years and it has R functions
+    to read, analyse and generate the reports. We have 5 function definitions in this
+    package out of two of them are exported and remaining functions are internal
+    functions which are not exported.
+Depends: R (>= 3.3.0)
+License: GPL
+LazyData: true
+Depends:readr,
+    magrittr,
+    tidyr,
+    dplyr,
+    graphics,
+    maps
+Suggests: knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
