@@ -3,7 +3,7 @@ Type: Package
 Title: Fars package
 Version: 0.1.0
 Author: Satish Divakarla
-Maintainer: satishchandra.d@gmail.com
+Maintainer: Satish Divakarla<satishchandra.d@gmail.com>
 Description: This package is built for assignment submission for R course in coursera.
 License: CC0
 LazyData: TRUE
