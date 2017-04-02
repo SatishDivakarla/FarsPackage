@@ -3,10 +3,6 @@ title: "Fatality Analysis Reporting System"
 author: "Satish Divakarla"
 date: "2017-03-30"
 output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Fatality Analysis Reporting System}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
 ---
 
 ## Introduction
