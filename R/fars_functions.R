@@ -12,12 +12,12 @@
 #' @importFrom readr read_csv
 #'
 #' @examples
-#' fars_read("data/accident_2013.csv.bz2")
-#' fars_read("data/accident_2015.csv.bz2")
+#' fars_read("accident_2013.csv.bz2")
+#' fars_read("accident_2015.csv.bz2")
 #'
 #' \dontrun{
 #' fars_read()
-#' fars_read("accident_2015.csv.bz2")
+#' fars_read(accident_2015.csv.bz2)
 #' }
 #'
 fars_read <- function(filename) {
@@ -52,7 +52,7 @@ fars_read <- function(filename) {
 #'
 make_filename <- function(year) {
   year <- as.integer(year)
-  sprintf("data/accident_%d.csv.bz2", year)
+  sprintf("accident_%d.csv.bz2", year)
 }
 
 #' Read list of files and returns a dataframe containing all months and years from the files.
