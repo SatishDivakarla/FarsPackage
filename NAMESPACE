@@ -1,4 +1,6 @@
-export("FarsPackage")
+export(fars_summarize_years)
+export(fars_map_state)
+export(fars_summarize_years)
 importFrom("readr", "read_csv")
 importFrom("magrittr", "%>%")
 importFrom("dplyr", "mutate", "select", "bind_rows", "group_by", "summarize", "filter")
