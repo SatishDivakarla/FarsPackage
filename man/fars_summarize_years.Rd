@@ -27,9 +27,6 @@ list of months and total number of records for each year.
 Note that this function fails if the years is not passed as argument.
 }
 \examples{
-fars_summarize_years(c("2013", "2014"))
-fars_summarize_years("2014")
-
 \dontrun{
 fars_summarize_years()
 fars_summarize_years("1900")

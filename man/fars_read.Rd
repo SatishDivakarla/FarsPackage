@@ -23,12 +23,9 @@ it exists it reads the file to an object and converts it to a data frame.
 Note that this function fails if the filename is not passed as argument.
 }
 \examples{
-fars_read("data/accident_2013.csv.bz2")
-fars_read("data/accident_2015.csv.bz2")
-
 \dontrun{
 fars_read()
-fars_read("accident_2015.csv.bz2")
+fars_read(accident_2015.csv.bz2)
 }
 
 }

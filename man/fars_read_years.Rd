@@ -26,10 +26,6 @@ and return month and year fields from dataframe.
 Note that this function fails if the years is not passed as argument.
 }
 \examples{
-fars_read_years(c("2013", "2014"))
-fars_read_years(c(2013, 2015))
-fars_read_years(2013)
-
 \dontrun{
 fars_read_years()
 fars_read_years("1900")

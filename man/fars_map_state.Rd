@@ -31,8 +31,6 @@ This function fails if the state number pased is invalid
 This function fails if there are no entries of the state and year passed to the function.
 }
 \examples{
-fars_map_state(1, "2013")
-
 \dontrun{
 fars_map_state(1)
 fars_map_state("2013")

@@ -23,9 +23,6 @@ file name by appending year to the filename and returns it.
 Note that this function fails if argument year is not passed as argument.
 }
 \examples{
-make_filename("2001")
-make_filename(1999)
-
 \dontrun{
 make_filename()
 make_filename("Test")
