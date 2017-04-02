@@ -6,7 +6,7 @@ Author: Satish Divakarla <satishchandra.d@gmail.com>
 Maintainer: Satish Divakarla <satishchandra.d@gmail.com>
 Description: This package is built for assignment submission for R course in coursera.
 Depends: R (>= 3.3.0)
-License: CCO
+License: CC0
 LazyData: TRUE
 Imports:
     readr,
